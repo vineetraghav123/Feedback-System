@@ -1,0 +1,43 @@
+RewriteEngine on 
+
+RewriteRule ^home?$ home.php
+RewriteRule ^student-login?$ login.php
+RewriteRule ^registration-form?$ form1.php
+RewriteRule ^feedback-form?$ feedback.php
+RewriteRule ^feedbacksuccess?$ feedbacksuccess.php
+RewriteRule ^faculty-login?$ facultylogin.php
+RewriteRule ^admin-login?$ adminlogin.php
+RewriteRule ^registered?$ success.php
+RewriteRule ^forgot-password?$ forgotpassword.php
+RewriteRule ^faculty-home?$ faculty.php
+RewriteRule ^resetpassword?$ forgotpassword.php
+
+RewriteRule ^faculty-menu?$ fmenu.php
+RewriteRule ^faculty/man.jpg?$ man.jpg
+RewriteRule ^faculty-feedback?$ fselect.php
+RewriteRule ^faculty-changepassword?$ fchangepassword.php
+RewriteRule ^addemail?$ addemail.php
+RewriteRule ^logout?$ logout.php
+
+RewriteRule ^admin-home?$ admin.php
+RewriteRule ^admin-menu?$ menu.php
+RewriteRule ^student-info?$ stdselect.php
+RewriteRule ^student-search?$ search.php
+RewriteRule ^student-delete?$ deleterecord.php
+RewriteRule ^teacher-info?$ teacher.php
+RewriteRule ^teacher-search?$ facultysearch.php
+RewriteRule ^add-faculty?$ addfaculty.php
+RewriteRule ^teacher-delete?$ deletefaculty.php
+RewriteRule ^change-password?$ changepassword.php
+RewriteRule ^team?$ team.php
+RewriteRule ^pdfdownload?$ pdf.php
+
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Duhuda
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Duhuda:ERRORPAGEID
+

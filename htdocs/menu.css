@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+   # background-image: url(pics/heidi.jpg);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	
+	
+
+}
+
+li a {
+    display: block;
+    color: White;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-size:19px;
+	margin:2px;
+	background-color:#4CAF50;
+	
+}
+
+
+
+li a:hover:not(.active) {
+    background-color: red;
+    color: white;
+	font-size:20px;
+	transition:0.4s;
+}
+body {
+    margin: 0;
+	background-image:url(pics/heidi.jpg);
+		background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.heading{
+		font-size:20px;
+		box-sizing: border-box;
+		border: 2px solid #4CAF50;
+		background-color: #4CAF50;
+		color: white;
+		padding:6px 15px 6px 42px;
+		
+		width:100%;
+		text-align:center;
+		margin:0px 0px 5px 0px;
+		
+	}
+	
+	table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td ,caption{
+	
+    text-align: center;
+    padding: 5px;
+}
+
+tr{background-color: F5FAFE;
+opacity:0.9;
+}/*:nth-child(even)*/
+
+th,caption{
+    background-color: #4CAF50;
+    color: white;
+}
+.fav{
+	background-color:#FF5400;
+	border:2px solid #FF5400;
+}
